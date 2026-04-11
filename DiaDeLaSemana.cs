@@ -8,6 +8,7 @@ internal class Program
         //Variable
         int dia;
         //Solicitar datos
+        Console.WriteLine("Dime un número del 1 al 7");
         dia = Convert.ToInt32(Console.ReadLine());
 
         switch (dia)
